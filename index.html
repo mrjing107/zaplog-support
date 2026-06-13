@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZapLog 支持 / Support</title>
+    <style>
+        * { margin:0; padding:0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height:1.7; color:#333; background:#f8f9fa; padding:40px 20px; }
+        .container { max-width:720px; margin:0 auto; background:#fff; padding:48px; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+        h1 { font-size:28px; font-weight:600; margin-bottom:8px; color:#1a1a1a; }
+        .subtitle { font-size:14px; color:#888; margin-bottom:32px; }
+        h2 { font-size:20px; font-weight:600; margin-top:32px; margin-bottom:16px; color:#1a1a1a; padding-bottom:8px; border-bottom:2px solid #e8e8e8; }
+        h3 { font-size:16px; font-weight:600; margin-top:20px; margin-bottom:10px; color:#333; }
+        p { margin-bottom:12px; }
+        ul { margin-left:24px; margin-bottom:16px; }
+        li { margin-bottom:6px; }
+        .contact-box { background:#f0f7ff; border-left:4px solid #0066cc; padding:16px 20px; margin:20px 0; border-radius:0 8px 8px 0; }
+        .contact-box a { color:#0066cc; text-decoration:none; }
+        .contact-box a:hover { text-decoration:underline; }
+        .faq-item { margin-bottom:24px; }
+        .faq-q { font-weight:600; color:#1a1a1a; margin-bottom:8px; }
+        .divider { border:none; border-top:1px solid #e8e8e8; margin:40px 0; }
+        .footer { margin-top:40px; padding-top:24px; border-top:1px solid #e8e8e8; text-align:center; color:#888; font-size:14px; }
+        @media (max-width:600px) { .container{padding:24px;} h1{font-size:22px;} h2{font-size:18px;} }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ZapLog 支持中心</h1>
+        <p class="subtitle">Support Center</p>
+
+        <div class="contact-box">
+            <p><strong>联系我们 / Contact Us</strong></p>
+            <p>如有任何问题或建议，欢迎发送邮件至：<a href="mailto:534579813@qq.com">534579813@qq.com</a></p>
+            <p><em>For any questions or feedback, please email us at: <a href="mailto:534579813@qq.com">534579813@qq.com</a></em></p>
+        </div>
+
+        <h2>常见问题 / FAQ</h2>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: How does ZapLog work? / ZapLog 是如何工作的？</p>
+            <p>A: ZapLog 会自动监控您的照片库，当检测到支付截图（如微信支付、支付宝截图）时，自动识别金额、商户等信息并生成记账记录。整个过程在设备本地完成，无需手动输入。</p>
+            <p><em>ZapLog automatically monitors your photo library. When a payment screenshot (e.g., WeChat Pay or Alipay) is detected, it recognizes the amount, merchant, and other details to create a bookkeeping entry — all locally on your device.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: Where is my expense data stored? / 我的记账数据存在哪里？</p>
+            <p>A: 所有记账数据存储在您的设备本地 App 沙盒中。数据不会上传到任何服务器，也不会同步到 iCloud。如果您删除 App，所有数据将被清除。</p>
+            <p><em>All bookkeeping data is stored locally in the app's sandbox on your device. No data is uploaded to servers or synced to iCloud. Uninstalling the app will remove all data.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: Why does ZapLog need photo library access? / 为什么 ZapLog 需要照片库权限？</p>
+            <p>A: ZapLog 需要读取您的照片库来检测支付截图并提取消费信息，同时也需要写入权限以便在您主动触发时将处理后的记账凭证保存到相册。ZapLog 不会读取或修改您的其他照片。</p>
+            <p><em>ZapLog needs read access to detect payment screenshots and extract expense info, and write access to save processed receipts when you choose to. ZapLog does not read or modify your other photos.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: How do I delete my data? / 如何删除我的数据？</p>
+            <p>A: 您可以在 App 内的消费记录列表中左滑删除单条记录，也可以通过 iOS 系统设置删除 App 来清除全部数据。保存在相册中的截图凭证可随时在照片 App 中手动删除。</p>
+            <p><em>You can swipe left on any record in the app to delete it individually, or uninstall the app via iOS Settings to remove all data. Processed screenshots saved to Photos can be deleted manually at any time.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: Will my data be lost if I update the app? / 更新 App 会丢失数据吗？</p>
+            <p>A: 不会。App Store 的常规更新不会影响您设备上的记账数据。只有在您主动删除 App 时数据才会被清除。</p>
+            <p><em>No. Regular App Store updates do not affect your bookkeeping data. Data is only removed when you uninstall the app.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: What devices and iOS versions are supported? / 支持哪些设备和 iOS 版本？</p>
+            <p>A: ZapLog 支持运行 iOS 18.0 及以上版本的 iPhone 和 iPad。iPad 版针对大屏进行了适配。</p>
+            <p><em>ZapLog supports iPhone and iPad running iOS 18.0 or later. The iPad version is optimized for larger screens.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: How accurate is the screenshot recognition? / 截图识别的准确率如何？</p>
+            <p>A: ZapLog 使用设备端 AI 模型进行截图识别，支持主流支付平台（微信、支付宝等）的截图格式。识别准确率受截图截取范围和质量影响，建议使用完整的支付成功页面截图以获得最佳效果。</p>
+            <p><em>ZapLog uses on-device AI for screenshot recognition, supporting major payment platforms. Accuracy depends on screenshot coverage and quality — we recommend using complete payment confirmation screenshots for best results.</em></p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q">Q: Is there an Android version? / 有 Android 版本吗？</p>
+            <p>A: 目前 ZapLog 仅提供 iOS 版本。如有 Android 需求，请通过邮件告知我们。</p>
+            <p><em>Currently, ZapLog is only available for iOS. If you're interested in an Android version, please let us know via email.</em></p>
+        </div>
+
+        <hr class="divider">
+
+        <h2>关于 ZapLog / About</h2>
+        <p>ZapLog is a screenshot-based expense tracking app that automatically detects payment screenshots from your photo library and generates bookkeeping records — no manual entry required.</p>
+        <p><em>ZapLog 是一款基于截图的自动记账应用，能够自动从您的照片库中识别支付截图并生成记账记录，无需手动输入。</em></p>
+
+        <p style="margin-top:20px;"><strong>版本 / Version：</strong>1.1.0</p>
+        <p><strong>开发者 / Developer：</strong>TealBlue Studio</p>
+
+        <hr class="divider">
+
+        <div class="footer">
+            <p><strong>ZapLog</strong></p>
+            <p>截图即记账 · 自动无感</p>
+            <p><em>Screenshot &amp; Done. Effortless Bookkeeping.</em></p>
+            <p style="margin-top:12px;color:#aaa;">&copy; 2026 TealBlue Studio</p>
+        </div>
+    </div>
+</body>
+</html>
